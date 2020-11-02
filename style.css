@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+
+    background-color:#934343;
+    flex-direction: column;
+    height: 100vh;
+    width: 340px;
+    margin-left: 0;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+ img {
+     width: 50%;
+     
+ }
+
+li {
+    list-style: none;
+    color:black;
+    justify-content: space-between;
+    font-style: italic ;
+}
+
+.competences {
+    color:rgba(19, 211, 131, 0.836);
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.interet {
+    color: yellow;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.formations {
+    color: red;
+    font-size: larger ;
+    text-decoration: underline;
+}
+.milieu {
+    
+    flex-direction: column;
+    position: relative;
+    bottom: 1007px;
+    width: 1600px;
+    margin-left: 340px;
+    height: 90vh;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    padding-top: 150px;
+}
+
+.expériences {
+    color:blue;
+    font-size: larger ;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Henny Penny', cursive;
+    font-family: 'Turret Road', cursive;
+}
+
+.adam {
+    color: black;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+h1 {
+
+    background-color:grey;
+    margin-left: 35%;
+    margin-right: 35%; 
+}
+
+.fa-futbol {
+
+    color:black;
+    font-size: 25px;
+    align-items: center;
+}
+
+.fa-tv {
+    color:black;
+    font-size: 25px;
+    align-items: center;
+}
+
+.adam  {
+animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: left;
+  animation-direction: alternate;
+}
+.competences {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: left;
+    animation-direction: alternate;
+    
+}
+ .interet {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: left;
+    animation-direction: alternate;
+ }
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 150%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .dark {
+    background-color: #112F41;
+    color: #ffffff;
+  }
+  
+  .dark li {
+
+    color:floralwhite;
+  }
+
+  
+  .dark button {
+    background: #144098;
+    color: #fff;
+  }
+
+  
